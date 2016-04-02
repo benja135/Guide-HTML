@@ -256,7 +256,7 @@
 					</section>
 
 				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
+					<section id="three" class="wrapper style1 fade-up" ng-app ng-controller="LexiqueCtrl">
 						<div class="inner">
 							<h1>Lexique</h1>
 							<p>
@@ -265,87 +265,11 @@
                             Vous trouverez ci-dessous la liste des termes employées dans ce guide, ou communément dans le jargon informatique.
 
                             <ul>
-                                <li>
-                                    <strong>Alimentation</strong> : L'alimentation s'occupe de donner la puissance de votre ordinateur. La puissance est donnée en Watt (W).
+                                <li ng-repeat="terme in termes">
+                                    <strong>{{terme.name}}</strong> : {{terme.description}}
                                 </li>
-                                <li>
-                                    BIOS : Le BIOS est le logiciel le plus simple installée sur la Carte Mère. Il permet de naviguer dans les options prédéfinies de la configuration de la Carte Mère.
-                                </li>
-                                <li>
-                                    Bit : Les informations dans votre ordinateur sont codées en bit. Un bit a deux valeurs possibles : 0 ou 1. On parle souvent de langage binaire.
-                                </li>
-                                <li>
-                                    Boitier : Le boitier contient l'ensemble des composants de l'ordinateur.
-                                </li>
-                                <li>
-                                    Bus : Les bus transportent les données entre les composants de l'ordinateur.
-                                </li>
-                                <li>
-                                    Carte Graphique (GPU) : La carte graphique est le composant permettant de faire tous les calculs d'affichage.
-                                </li>
-                                <li>
-                                    Carte Mère (MB) : La carte mère est le composant acceuillant tous ls autres composants. C'est la base où va se connecter le processeur, carte graphique, etc...
-                                </li>
-                                <li>
-                                    Clavier : Le clavier est ce qui vous permet de saisir des informations sur votre pc. Les claviers avaient autrefois des prises US2, mais la plupart des claviers se branchent maintenant en USB.
-                                </li>
-                                <li>
-                                    Chipset :
-                                </li>
-                                <li>
-                                    Disque Dur : Le disque dur est ce qui contient les informations de votre ordinateur, c'est la mémoire. Il existe des disques dur HDD et SDD.
-                                </li>
-                                <li>
-                                    DVI : Le DVI est un port de branchement audio-visuel.
-                                </li>
-                                <li>
-                                    HDMI : Le HDMI est un port de branchement audio-visuel de haute qualité, apportant une image pouvant aller à 1080p.
-                                </li>
-                                <li>
-                                    Hertz (Hz) : C'est l'unité de mesure de la fréquence. On en parle notamment de Hz pour le CPU, exprimé en GHz. Un GHz = 1 000 000 000Hz
-                                </li>
-                                <li>
-                                    Octet (o) : Un octet correspond à 8 bits.
-                                </li>
-                                <li>
-                                    Operating System (OS) : Interface graphique permettant d'intéragir avec l'ordinateur.
-                                </li>
-                                <li>
-                                    PCI : Port permettant d'installer la GPU, différentes cartes, etc...
-                                </li>
-                                <li>
-                                    Processeur (CPU) : Unité de contrôle de l'ordinateur. Il représente le cerveau et effectue la majorité des calculs.
-                                </li>
-                                <li>
-                                    Random Access Memory (RAM) : Mémoire vive. Elle est utilisée pour stocker des données utilisées dans les programmes en cours. Elle a un accès plus rapide que les HDD/SDD.
-                                </li>
-                                <li>
-                                    Sata : Port reliant la MB à des espaces de stockages.
-                                </li>
-                                <li>
-                                    Socket : Emplacement de la MB pour le processeur.
-                                </li>
-                                <li>
-                                    Souris : Accessoire servant à déplacer et à intéragir avec le curseur.
-                                </li>
-                                <li>
-                                    UEFI :
-                                </li>
-                                <li>
-                                    USB : Système de transmission des données entre différents support de données.
-                                </li>
-                                <li>
-                                    VGA : Port audio-visuel.
-                                </li>
-                                <li>
-                                    Ventirad : Système de refroidissement à base de ventilateur et de radiateur.
-                                </li>
-                                <li>
-                                    Watercooling : Système de refroidissement à base de liquide.
-                                </li>
-                                <li>
-                                    Watt (W) : Unité de mesure de la puissance, utilisée pour l'alimentation.
-                                </li>
+                            </ul>
+
                             </ul>
 
 						</div>
@@ -372,6 +296,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+            <script src="assets/js/angular/controller/LexiqueCtrl.js"></script>
 
 	</body>
 </html>
