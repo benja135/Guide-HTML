@@ -7,7 +7,7 @@ function LexiqueCtrl($scope) {
         {
 
             "name" : "BIOS",
-            "description" : "Micrologiciel de la MB effectuant des opérations élémentaires, pouvant s'ouvrir lors du démarrage de l'ordinateur."
+            "description" : "Micrologiciel de la carte mère effectuant des opérations élémentaires, pouvant s'ouvrir lors du démarrage de l'ordinateur."
         },
         {
             "name" : "Bit",
@@ -19,11 +19,19 @@ function LexiqueCtrl($scope) {
         },
         {
             "name" : "Bus",
-            "description" : "transporte les données entre les composants de l'ordinateur."
+            "description" : "Transporte les données entre les composants de l'ordinateur."
+        },
+        {
+            "name" : "Carte Graphique (GPU)",
+            "description" : "Graphic Process Unit. Effectue la majorité des calculs d'affichage."
+        },
+        {
+            "name" : "Carte Mère (MB)",
+            "description" : "Mother Board. Acceuille tous les autres composants."
         },
         {
             "name" : "Chipset",
-            "description" : "Jeu de composants électroniques situé dans la MB. Permet de gérer les flux de données entre le CPU, la mémoire et les autres périphériques."
+            "description" : "Jeu de composants électroniques situé dans la carte mère. Permet de gérer les flux de données entre le processeur, la mémoire et les autres périphériques."
         },
         {
             "name" : "Core",
@@ -38,48 +46,40 @@ function LexiqueCtrl($scope) {
             "description" : "Port de branchement audio-visuel."
         },
         {
-            "name" : "GPU",
-            "description" : "Carte graphique (Graphic Process Unit). Effectue la majorité des calculs d'affichage."
-        },
-        {
             "name" : "HDMI",
-            "description" : "Le HDMI est un port de branchement audio-visuel de haute qualité, apportant une image pouvant aller à 1080p."
+            "description" : "Port de branchement audio-visuel de haute qualité, apportant une image pouvant aller à 1080p."
         },
         {
             "name" : "Hertz (Hz)",
-            "description" : "C'est l'unité de mesure de la fréquence. On en parle notamment de Hz pour le CPU, exprimé en GHz. Un GHz = 1 000 000 000Hz."
-        },
-        {
-            "name" : "MB",
-            "description" : "Carte Mère (Mother Board). Acceuille tous les autres composants."
+            "description" : "Unité de mesure de la fréquence. On en parle notamment pour le processeur, exprimé en GHz. 1 GHz = 1 000 000 000 Hz."
         },
         {
             "name" : "Octet (o)",
-            "desccription" : "Un octet correspond à 8 bits."
+            "desccription" : "1 octet = 8 bits."
         },
         {
             "name" : "Operating System (OS)",
-            "description" : "Interface graphique permettant d'intéragir avec l'ordinateur."
+            "description" : "Système d'exploitation. Interface graphique permettant d'intéragir avec l'ordinateur."
         },
         {
             "name" : "PCI",
-            "description" : "Port permettant d'installer la GPU, différentes cartes, etc..."
+            "description" : "Port permettant d'installer différentes cartes, etc..."
         },
         {
             "name" : "Processeur (CPU)",
-            "description" : "Unité de contrôle de l'ordinateur. Il représente le cerveau et effectue la majorité des calculs."
+            "description" : "Control Process Unit. Unité de contrôle de l'ordinateur. Il représente le cerveau et effectue la majorité des calculs."
         },
         {
-            "name" : "Random Access Memory (RAM)",
-            "description" : "Mémoire vive. Elle est utilisée pour stocker des données utilisées dans les programmes en cours. Elle a un accès plus rapide que les HDD/SDD."
+            "name" : "RAM",
+            "description" : "Mémoire vive (Random Access Memoory). Utilisée pour stocker des données utilisées dans les programmes en cours. Elle a un accès plus rapide que les disques durs."
         },
         {
             "name" : "Sata",
-            "description" : "Port reliant la MB à des espaces de stockages."
+            "description" : "Port reliant la carte mère à des espaces de stockages."
         },
         {
             "name" : "Socket",
-            "description" : "Emplacement de la MB pour le processeur."
+            "description" : "Emplacement de la carte mère pour le processeur."
         },
         {
             "name" : "Souris",
@@ -87,19 +87,19 @@ function LexiqueCtrl($scope) {
         },
         {
             "name" : "UEFI",
-            "description" : "Unified Extensible Firmware Interface. BIOS amélioré. Permet de naviguer dans les options de configuration de la MB et du matériel."
+            "description" : "Unified Extensible Firmware Interface. BIOS amélioré. Permet de naviguer dans les options de configuration de la carte mère et du matériel."
         },
         {
             "name" : "USB",
             "description" : "Système de transmission des données entre différents support de données."
         },
         {
-            "name" : "VGA",
-            "description" : "Port audio-visuel."
-        },
-        {
             "name" : "Ventirad",
             "description" : "Système de refroidissement à base de ventilateur et de radiateur."
+        },
+        {
+            "name" : "VGA",
+            "description" : "Port de branchement audio-visuel."
         },
         {
             "name" : "Watercooling",
