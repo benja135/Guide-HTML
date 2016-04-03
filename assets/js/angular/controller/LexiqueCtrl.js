@@ -23,7 +23,7 @@ function LexiqueCtrl($scope) {
         },
         {
             "name" : "Chipset",
-            "description" : ""
+            "description" : "Jeu de composants électroniques situé dans la MB. Permet de gérer les flux de données entre le CPU, la mémoire et les autres périphériques."
         },
         {
             "name" : "Core",
@@ -87,7 +87,7 @@ function LexiqueCtrl($scope) {
         },
         {
             "name" : "UEFI",
-            "description" : ""
+            "description" : "Unified Extensible Firmware Interface. BIOS amélioré. Permet de naviguer dans les options de configuration de la MB et du matériel."
         },
         {
             "name" : "USB",
