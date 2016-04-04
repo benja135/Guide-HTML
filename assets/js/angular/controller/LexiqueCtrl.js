@@ -14,7 +14,7 @@ function LexiqueCtrl($scope) {
             "description" : "Unité de codage des données."
         },
         {
-            "name" : "Boitier",
+            "name" : "Boîtier",
             "description" : "Contient les composants de l'ordinateur."
         },
         {
@@ -27,7 +27,7 @@ function LexiqueCtrl($scope) {
         },
         {
             "name" : "Carte Mère (MB)",
-            "description" : "Mother Board. Acceuille tous les autres composants."
+            "description" : "Mother Board. Accueille tous les autres composants."
         },
         {
             "name" : "Chipset",
@@ -59,7 +59,7 @@ function LexiqueCtrl($scope) {
         },
         {
             "name" : "Operating System (OS)",
-            "description" : "Système d'exploitation. Interface graphique permettant d'intéragir avec l'ordinateur."
+            "description" : "Système d'exploitation. Interface graphique permettant d'interagir avec l'ordinateur."
         },
         {
             "name" : "PCI",
@@ -91,7 +91,7 @@ function LexiqueCtrl($scope) {
         },
         {
             "name" : "USB",
-            "description" : "Système de transmission des données entre différents support de données."
+            "description" : "Système de transmission des données entre différents supports de données."
         },
         {
             "name" : "Ventirad",
