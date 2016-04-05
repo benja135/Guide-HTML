@@ -3168,6 +3168,7 @@
 
 		table td {
 			padding: 0.75em 0.75em;
+            text-align: center;
 		}
 
 		table th {
@@ -3175,7 +3176,7 @@
 			font-size: 1em;
 			font-weight: bold;
 			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			text-align: center;
 		}
 
 		table thead {
