@@ -150,20 +150,12 @@ function LexiqueCtrl($scope) {
             "description" : "Emplacement de la carte mère pour le processeur."
         },
         {
-            "name" : "Souris",
-            "description" : "Accessoire servant à déplacer et à intéragir avec le curseur."
-        },
-        {
             "name" : "SSD",
             "description" : "Modèle de disque dur. Ce modèle de disque dur est plus silencieux et plus rapide qu'un HDD, mais à un prix au Go plus élevé que le HDD."
         },
         {
             "name" : "Triple Channel",
             "description" : "Mode branchement de RAM."
-        },
-        {
-            "name" : "UEFI",
-            "description" : "Unified Extensible Firmware Interface. BIOS amélioré. Permet de naviguer dans les options de configuration de la carte mère et du matériel."
         },
         {
             "name" : "USB",
@@ -176,10 +168,6 @@ function LexiqueCtrl($scope) {
         {
             "name" : "VGA",
             "description" : "Port de branchement audio-visuel."
-        },
-        {
-            "name" : "Watercooling",
-            "description" : "Système de refroidissement à base de liquide."
         },
         {
             "name" : "Watt (W)",
