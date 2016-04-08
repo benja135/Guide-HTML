@@ -1,4 +1,4 @@
-#VISION DE PRODUIT
+#Vision de produit
 
 ##Équipe projet : MINAT
 
@@ -31,7 +31,7 @@ De plus, ce guide alliera comparatif des composants et guide de montage. Il sera
 ###Équipe de développement
 **Nom** : MINAT
 
-Composées de :
+Composée de :
 * MOUGEOT Mattéo
 * LACHERAY Benjamin
 * FAUCHERY Hugo
