@@ -107,7 +107,7 @@ function LexiqueCtrl($scope) {
         },
         {
             "name" : "Octet (o)",
-            "desccription" : "1 octet = 8 bits."
+            "description" : "1 octet = 8 bits."
         },
         {
             "name" : "Operating System (OS)",
@@ -135,7 +135,7 @@ function LexiqueCtrl($scope) {
         },
         {
             "name" : "S-Video",
-            "desscription" : "Port de branchement audio-visuel."
+            "description" : "Port de branchement audio-visuel."
         },
         {
             "name" : "Sata",
