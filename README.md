@@ -32,7 +32,7 @@ De plus, ce guide alliera comparatif des composants et guide de montage. Il sera
 **Nom** : MINAT
 
 Composée de :
-* MOUGEOT Mattéo
+* MOUGEOT Matteo
 * LACHERAY Benjamin
 * FAUCHERY Hugo
 * GUIBERT Maximilien
