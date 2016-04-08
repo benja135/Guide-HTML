@@ -24,31 +24,37 @@ De plus, ce guide alliera comparatif des composants et guide de montage. Il sera
 ##Les rôles impliqués
 
 ###ScrumMaster
-Nom : SYLVESTRE Franck 
+Nom : SYLVESTRE Franck
+
 Rôle : Le scrum master est responsable de la compréhension, de l'adhésion et de la mise en œuvre de la méthode Scrum.
 
 ###Équipe de développement
-Nom :     MINAT 
+Nom : MINAT
+
 Composées de :
 	MOUGEOT Mattéo
 	LACHERAY Benjamin
 	FAUCHERY Hugo
 	GUIBERT Maximilien
+
 Rôle : L'équipe de développement a pour responsabilité de livrer à chaque fin d'itération une nouvelle version de l'application enrichie de nouvelles fonctionnalités et respectant le niveau de qualité nécessaire pour être livré.
 
 ###Product Owner
 Nom : FAUCHERY Hugo
+
 Rôle : Le product owner est le représentant des clients et des utilisateurs. Il est responsable de maximiser la valeur du produit et du travail de l'équipe de développement.
 
 
 ##User Stories
 
 Caractéristiques fonctionnelles:
-Lexique explicatif des différents termes techniques
-Liste des différents composants avec leurs critères
-Explication sur la manière de procéder pour pouvoir monter son ordinateur de bureau
-Orienter l’utilisateur dans le choix de ses composants en fonction de ses besoins
+
+* Lexique explicatif des différents termes techniques
+* Liste des différents composants avec leurs critères
+* Explication sur la manière de procéder pour pouvoir monter son ordinateur de bureau
+* Orienter l’utilisateur dans le choix de ses composants en fonction de ses besoins
 
 Caractéristiques non fonctionnelles:
-Le guide doit être réalisé en HTML5
-Le guide doit être simple et aller directement à l’essentiel
+
+* Le guide doit être réalisé en HTML5
+* Le guide doit être simple et aller directement à l’essentiel
