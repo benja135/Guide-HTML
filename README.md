@@ -1,4 +1,6 @@
-#Vision de produit
+http://benja135.xyz/guide/
+
+#Vision produit
 
 ##Équipe projet : MINAT
 
@@ -45,7 +47,7 @@ Composée de :
 **Rôle** : Le product owner est le représentant des clients et des utilisateurs. Il est responsable de maximiser la valeur du produit et du travail de l'équipe de développement.
 
 
-##User Stories
+##Features
 
 Caractéristiques fonctionnelles:
 
