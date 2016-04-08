@@ -4,7 +4,7 @@
 
 ##Le nom et quelques mots d'explication
 
-Nom : Guide, comment monter son PC ?
+**Nom** : Guide, comment monter son PC ?
 
 Le produit du projet est un guide pour les débutants voulant monter leur propre PC. Le guide vulgarisera également le vocabulaire lié à l’informatique.
 
@@ -24,25 +24,25 @@ De plus, ce guide alliera comparatif des composants et guide de montage. Il sera
 ##Les rôles impliqués
 
 ###ScrumMaster
-Nom : SYLVESTRE Franck
+**Nom** : SYLVESTRE Franck
 
-Rôle : Le scrum master est responsable de la compréhension, de l'adhésion et de la mise en œuvre de la méthode Scrum.
+**Rôle** : Le scrum master est responsable de la compréhension, de l'adhésion et de la mise en œuvre de la méthode Scrum.
 
 ###Équipe de développement
-Nom : MINAT
+**Nom** : MINAT
 
 Composées de :
-	MOUGEOT Mattéo
-	LACHERAY Benjamin
-	FAUCHERY Hugo
-	GUIBERT Maximilien
+* MOUGEOT Mattéo
+* LACHERAY Benjamin
+* FAUCHERY Hugo
+* GUIBERT Maximilien
 
-Rôle : L'équipe de développement a pour responsabilité de livrer à chaque fin d'itération une nouvelle version de l'application enrichie de nouvelles fonctionnalités et respectant le niveau de qualité nécessaire pour être livré.
+**Rôle** : L'équipe de développement a pour responsabilité de livrer à chaque fin d'itération une nouvelle version de l'application enrichie de nouvelles fonctionnalités et respectant le niveau de qualité nécessaire pour être livré.
 
 ###Product Owner
-Nom : FAUCHERY Hugo
+**Nom** : FAUCHERY Hugo
 
-Rôle : Le product owner est le représentant des clients et des utilisateurs. Il est responsable de maximiser la valeur du produit et du travail de l'équipe de développement.
+**Rôle** : Le product owner est le représentant des clients et des utilisateurs. Il est responsable de maximiser la valeur du produit et du travail de l'équipe de développement.
 
 
 ##User Stories
